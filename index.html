@@ -211,9 +211,12 @@
             </div>
             <div class="card project--2">
                 <!-- <img class="card__img" src="./img/projectg1.jpg" alt="Project 1"/> -->
-                <video class="card__video" autoplay muted loop>
+                <!-- <video class="card__video" autoplay muted loop>
                     <source src="https://www.youtube.com/watch?v=JZdsmZ7jQD8" type="video/mp4">
-                </video>
+                </video> -->
+                <iframe class="card__video"
+                    src="https://www.youtube.com/embed/JZdsmZ7jQD8?autoplay=1&mute=1&loop=1&playlist=JZdsmZ7jQD8" frameborder="0" allowfullscreen>
+                </iframe>
                 <div class="card__info">
                     <h1>E-Commerce</h1>
                     <p>This is an e-commerce app developed with React and it is using Fake Store API</p>
@@ -235,9 +238,12 @@
             </div>
             <div class="card project--4">
                 <!-- <img class="card__img" src="./img/projectg1.jpg" alt="Project 1"/> -->
-                <video class="card__video" autoplay muted loop>
-                    <source src="https://www.youtube.com/watch?v=kQA0D8Foxqo" type="video/mp4">
-                </video>
+                <!-- <video class="card__video" id="player1" preload="none" autoplay muted loop>
+                    <source type="video/youtube" src="https://www.youtube.com/watch?v=kQA0D8Foxqo">
+                </video> -->
+                <iframe class="card__video"
+                    src="https://www.youtube.com/embed/kQA0D8Foxqo?autoplay=1&mute=1&loop=1&playlist=kQA0D8Foxqo" frameborder="0" allowfullscreen>
+                </iframe>
                 <div class="card__info">
                     <h1>Crossfit Webpage</h1>
                     <p>This is an app developed with HTML, SASS and JavaScript, it is fully responsive</p>
@@ -247,12 +253,15 @@
                 </div>
             </div>
             <div class="card project--5">
-                <video class="card__video" autoplay muted loop>
+                <!-- <video class="card__video" autoplay muted loop>
                     <source src="https://www.youtube.com/watch?v=sNin7Gnuyow" type="video/mp4">
-                </video>
+                </video> -->
+                <iframe class="card__video"
+                    src="https://www.youtube.com/embed/sNin7Gnuyow?autoplay=1&mute=1&loop=1&playlist=sNin7Gnuyow" frameborder="0" allowfullscreen>
+                </iframe>
                 <div class="card__info">
                     <h1>Computer Vision System</h1>
-                    <p>This is a computer vision system to detect lot numbers in packaing line. It was developed with python, OpenCV, Tkinter. </p>
+                    <p>This is a computer vision system to detect lot numbers in packaging line. It was developed with python, OpenCV, Tkinter. </p>
                     <a href="https://github.com/ivanmongebadilla/python-CVS" target="_blank">
                         <button class="button">Visit Site</button>
                     </a>
@@ -378,4 +387,7 @@
     </div>
 
     <script src="js/script.js"></script>
+    <script>
+        var player = new MediaElementPlayer('#player1');
+    </script>
 </body>

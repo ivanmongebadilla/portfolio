@@ -270,9 +270,9 @@ body {
   grid-column: 1 / -1;
   grid-row: 4 / 5;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 18rem;
-  grid-gap: 4rem;
+  grid-gap: 8rem;
   justify-items: center;
   align-items: center; }
   @media only screen and (max-width: 62.5em) {
@@ -294,17 +294,23 @@ body {
     .project--1 {
       justify-self: center; } }
 
-.project--3 {
+.project--2 {
   justify-self: start; }
+
+.project--3 {
+  justify-self: end; }
   @media only screen and (max-width: 62.5em) {
     .project--3 {
       justify-self: center; } }
 
 .project--4 {
-  justify-self: end; }
+  justify-self: start; }
   @media only screen and (max-width: 62.5em) {
     .project--4 {
       justify-self: center; } }
+
+.project--5 {
+  justify-self: end; }
 
 .project--6 {
   justify-self: start; }
@@ -612,7 +618,8 @@ body {
 
 .card {
   height: 35rem;
-  width: 28rem;
+  /* width: 28rem; */
+  width: 50rem;
   background-color: white;
   margin-bottom: 5rem;
   border-radius: 5px;
@@ -631,7 +638,8 @@ body {
     position: absolute;
     border-radius: 5px;
     height: 35rem;
-    width: 28rem;
+    /* width: 28rem; */
+    width: 50rem;
     object-fit: cover; }
     @media only screen and (max-width: 50em) {
       .card__video {

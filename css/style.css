@@ -182,6 +182,7 @@ body {
   animation-timing-function: ease-out; }
   .header__left {
     flex: 3;
+    z-index: 100;
   }
     /* z-index: 200000; */
   .header__right {
@@ -692,6 +693,10 @@ body {
     left: calc(-1 * 15px);
     height: calc(100% + 15px * 2);
     width: calc(100% + 15px * 2);
+    /* top: calc(-1 * 1rem);
+    left: calc(-1 * 1rem);
+    height: calc(100% + 1rem * 2);
+    width: calc(100% + 1rem * 2); */
     background: linear-gradient(60deg, black, #710000, #a7a7a7, #013b3f, #938160);
     border-radius: 18px;
     z-index: -1;

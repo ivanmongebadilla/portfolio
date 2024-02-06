@@ -346,6 +346,12 @@ body {
     .project--6 {
       justify-self: center; } }
 
+.project--7 {
+  justify-self: end; }
+  @media only screen and (max-width: 71.875em) {
+    .project--7 {
+      justify-self: center; } }
+
 .resume {
   grid-column: 1 / -1;
   grid-row: 5 / 6;
